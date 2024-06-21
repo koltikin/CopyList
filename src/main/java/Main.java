@@ -19,7 +19,7 @@ public class Main {
         boolean isMissingElementFound = removedNum == missingElement;
 
         System.out.println("missing element: " + missingElement + "\n" + "removed Index: " + originalList.indexOf(missingElement));
-        System.out.println(isMissingElementFound);
+        System.out.println("isMissingElementFound: " + isMissingElementFound);
 
     }
 
